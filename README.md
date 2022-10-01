@@ -121,15 +121,7 @@ the prediction i.e. the score $y_c$ and then use the gradients to
 generate the saliency map by taking the maximum absolute value across
 the three color channels.
 
-![Saliency Map Dataset](dataset.png){#fig:galaxy}
-
-![image](Saliency Map 2.png){width="1\\linewidth"} []{#fig:sub1
-label="fig:sub1"}
-
-![image](Saliency Map 3.png){width="1\\linewidth"} []{#fig:sub2
-label="fig:sub2"}
-
-![Saliency Map](Saliency Map.png){#fig:galaxy width="1\\linewidth"}
+<img src = "https://github.com/mdoshi2612/WiDS-Project/blob/main/Images/Saliency%20Map.png">
 
 We can see that the abnormal areas of the leaf are much more prominent
 in the heatmap than regular parts of the leaf. This tells us that our
@@ -151,14 +143,9 @@ is run on every occluded image and the heatmap updated with the value of
 the score at that particular pixel. Finally we upsample the heatmap and
 plot it on top of our input image to generate the attribution map.
 
-![Dataset Image](occlusion_dataset.png){#fig:sub1 width=".4\\linewidth"}
+<img src = "https://github.com/mdoshi2612/WiDS-Project/blob/main/Images/occlusion_dataset.png">
 
-![Occlusion Map](Occlusion map.png){#fig:sub2 width=".4\\linewidth"}
-
-![Dataset Image](occlusion_dataset 2.png){#fig:sub1
-width=".4\\linewidth"}
-
-![Occlusion Map](Occlusion map 2.png){#fig:sub2 width=".4\\linewidth"}
+<img src = "https://github.com/mdoshi2612/WiDS-Project/blob/main/Images/Occlusion%20map.png">
 
 We can see that the model gives priority to the area where the
 instrument is present to make it's decision.
@@ -175,11 +162,10 @@ function from Keras library. The model we use here is VGG16 from
 Tensorflow. The prediction here is bullmastiff(a breed of dog) and we
 use that class to apply Grad-CAM.
 
-![image](original.png){width=".4\\linewidth"} []{#fig:sub1
-label="fig:sub1"}
+<img src="https://github.com/mdoshi2612/WiDS-Project/blob/main/Images/original.png">
 
-![image](Grad-CAM.png){width=".4\\linewidth"} []{#fig:sub2
-label="fig:sub2"}
+
+<img src="https://github.com/mdoshi2612/WiDS-Project/blob/main/Images/Grad-CAM.png">
 
 # Conclusion
 
