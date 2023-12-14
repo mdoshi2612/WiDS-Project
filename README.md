@@ -102,7 +102,7 @@ $$\alpha_{k}^{c}=\overbrace{\frac{1}{Z} \sum_{i} \sum_{j}}^{\text {global averag
 Finally we perform a weighted combination of the activation maps and
 perform a ReLU to obtain the localization maps.
 
-$$L_{\text {Grad-CAM }}^{c}=\operatorname{ReLU} \underbrace{\left(\sum_{k} \alpha_{k}^{c} A^{k}\right)}_{\text {linear combination }}$$
+$$L_{\text {Grad-CAM }}^{c}=ReLU\underbrace{\left(\sum_{k} \alpha_{k}^{c} A^{k}\right)}_{\text {linear combination }}$$
 
 # Experiments and Results
 
